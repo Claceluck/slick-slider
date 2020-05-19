@@ -8,7 +8,14 @@ jQuery(document).ready(function(){
         slidesToScroll: 2,
         speed: 800,
         easing:'ease',
-        infinity: false,
+        infinite: true,
+        initialSlide: 0,
+        autoplay: true,
+        pauseOnFocus: true,
+        pauseOnHover: true,
+        pauseOnDotsHover:true,
+
+
     });
 
 
